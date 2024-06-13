@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.hero {
+    background-color: #F55A5A;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.hero > img {
+    margin-right: 5px;
+}
+
+.hero > span {
+    color: #FFFFFF;
+    font-size: 14.46px;
+    font-weight: 500;
+    line-height: 17.5px;
+    letter-spacing: -0.075em;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 32px;
+}
+
+.card > img {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.container > h4 {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 12.39px;
+    letter-spacing: 0.17em;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+h4 > a {
+    color: #918E9B;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 12.39px;
+    margin-left: 20px;
+}
+
+.container > h2 {
+    margin-top: 0px;
+    color: #2B283A;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30.26px;
+}
+
+.container > h3 {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: 700;
+    line-height: 12.39px;
+}
+
+.container > p{
+    color: #2B283A;
+    width: 326px;
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 15.36px;
+
+}
